@@ -1,0 +1,13 @@
+#pragma once
+
+BEGIN(Engine)
+
+enum class ETransformState
+{
+	TRANSFORMSTATE_RIGHT,
+	TRANSFORMSTATE_UP,
+	TRANSFORMSTATE_LOOK,
+	TRANSFORMSTATE_POS,
+};
+
+END

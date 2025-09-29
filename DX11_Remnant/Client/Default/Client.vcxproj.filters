@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{e0f7afa0-d00d-4675-89aa-2d76f07e5aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{261255c8-5634-41db-9b06-5708ca8c0918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Default\00.Window">
+      <UniqueIdentifier>{34dc8e74-d4de-47a7-a79e-62d43538509f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Default\99.Etc">
+      <UniqueIdentifier>{847f0b94-9a7e-4dc3-9353-28e91d07d21f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level">
+      <UniqueIdentifier>{07bf00d8-6aad-4b83-9250-652107519cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\01.Logo">
+      <UniqueIdentifier>{51f80e16-cae2-4897-a791-cdb467349990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02.GamePlay">
+      <UniqueIdentifier>{69d5aaea-e87d-4653-86e0-f36d7e4eb6e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\98.Loading">
+      <UniqueIdentifier>{26701c9b-f6ee-487b-b335-c8358fcaee37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\98.Loading\00.Loader">
+      <UniqueIdentifier>{0026534c-72a5-4598-9297-abf1a1279b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Define">
+      <UniqueIdentifier>{2077ae6d-73db-455d-b4a6-341162dbe70f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.ShaderFiles">
+      <UniqueIdentifier>{4dc1a18e-9539-464b-85b5-af5570cc6d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\99.Data">
+      <UniqueIdentifier>{dc1d0869-f63a-43d3-97a4-2b72d9064b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Tool">
+      <UniqueIdentifier>{4d89ea15-b706-4c7c-8e77-464b4947ffce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Tool\00.ImGuiManager">
+      <UniqueIdentifier>{5b382515-bcb7-4872-9700-8f9c482010d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Tool\00.ImGuiManager\99.Data">
+      <UniqueIdentifier>{d7a80343-1726-42af-bfe1-21bc749e85e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Tool\00.ImGuiManager\98.Interface">
+      <UniqueIdentifier>{327f2124-7198-4a77-a489-b16d37de3b89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Tool\00.ImGuiManager\99.ImGuiData">
+      <UniqueIdentifier>{5e756479-71ab-4b00-8610-c84f9adba754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\03.Editor">
+      <UniqueIdentifier>{f38f03e2-573d-471e-a13d-28a819532ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\03.Editor\00.Terrain">
+      <UniqueIdentifier>{643a4546-3cab-459f-a3d4-d89fd3f363af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui">
+      <UniqueIdentifier>{96ad99e3-6399-4f4d-a1b0-b78e54367e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui\01.Code">
+      <UniqueIdentifier>{717b0315-520d-4671-a579-4b3f8d0262e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui\00.Header">
+      <UniqueIdentifier>{e46cab98-356d-44a6-b710-a901d34f8402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Tool\00.ImGuiManager\99.ImGuiData\01.ImGuiDialog">
+      <UniqueIdentifier>{2271c4a2-6b83-420e-83b9-722f0f1beeb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Tool\00.ImGuiManager\99.ImGuiData\01.ImGuiDialog\00.Header">
+      <UniqueIdentifier>{d8f4c83f-7935-4457-ab11-ca2d71506f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Tool\00.ImGuiManager\99.ImGuiData\01.ImGuiDialog\01.Code">
+      <UniqueIdentifier>{d016a443-a8e4-457d-94e0-231264608117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor">
+      <UniqueIdentifier>{1c96c045-3bc5-443b-9859-5fed3aea6b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\00.Character">
+      <UniqueIdentifier>{54d6296f-b021-4312-906e-c8a15c6d7d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\00.Character\00.Player">
+      <UniqueIdentifier>{89ae7706-63ed-427c-892f-6d406d5443a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\00.Character\00.Player\99.Enum">
+      <UniqueIdentifier>{c1e3a24c-dad1-4124-894a-682a597d8360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\00.Character\00.Player\00.StateMachine">
+      <UniqueIdentifier>{5ac260be-2a7f-4919-92e3-af3c79508f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\00.Character\01.Monster">
+      <UniqueIdentifier>{05891a78-8189-4b73-b21f-162acb861d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\00.Character\01.Monster\00.Monster_Test">
+      <UniqueIdentifier>{d5a3940e-7d0c-4408-b72e-772c5ade239a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\01.DynamicActor">
+      <UniqueIdentifier>{90b8ed93-e9f5-4629-ae2b-38f551018606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\01.DynamicActor\00.Weapon">
+      <UniqueIdentifier>{cbf194c3-49e6-4942-a2e0-691fecb5b1ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\02.StaticActor">
+      <UniqueIdentifier>{6cc8559b-43ad-445a-9437-917523f36ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\03.Terrain">
+      <UniqueIdentifier>{04af4a38-579b-4507-8611-7255544f599a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\03.Terrain\99.Enum">
+      <UniqueIdentifier>{36d67d34-3bcf-4dd9-a2fb-2fc1dac7b3a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\04.Camera">
+      <UniqueIdentifier>{c683c028-53e6-4880-9244-5dd28250c5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\04.Camera\00.Camera_Free">
+      <UniqueIdentifier>{61724596-e792-4583-a60f-e4691c45f0aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\05.SkyBox">
+      <UniqueIdentifier>{9526d7fd-3d3c-4d62-bcaf-d9e2e0e10592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\05.SkyBox\00.Sky_Default">
+      <UniqueIdentifier>{867f2f5a-c631-4ded-aba3-8c3fdbfe9dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\05.SkyBox\01.Sky_Stage1">
+      <UniqueIdentifier>{b37c0777-bb08-4c1a-bced-35c9faf5d3bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\06.UI">
+      <UniqueIdentifier>{ba304da6-db8f-4c03-b92c-67ff625c5c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\06.UI\00.PlayerUI">
+      <UniqueIdentifier>{5b77af95-82ab-4f45-9474-2a6670968ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\06.UI\00.PlayerUI\99.Data">
+      <UniqueIdentifier>{96078097-e025-4ed3-bae0-7e60e1e2fe01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\06.UI\00.PlayerUI\00.CrossHair">
+      <UniqueIdentifier>{5d5190cd-4994-48f1-9f05-ea88f6149020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\06.UI\00.PlayerUI\00.CrossHair\99.Data">
+      <UniqueIdentifier>{16f1572d-09b3-462b-a8a0-062ceabccf0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\07.Light">
+      <UniqueIdentifier>{d7907d1d-f1cf-4690-aba4-6051f5075bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\07.Light\00.Directional">
+      <UniqueIdentifier>{9f58e7ee-b1b5-4be8-a664-c6cb4277837e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\02.StaticActor\00.Building_A">
+      <UniqueIdentifier>{55880e31-70d1-43da-ba6f-de141af51fd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\00.Character\00.Player\00.StateMachine\00.State">
+      <UniqueIdentifier>{0726a35e-f287-4c15-8caa-699f428af4e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\00.Character\00.Player\00.StateMachine\00.State\00.Locomotion">
+      <UniqueIdentifier>{799448e0-7bbb-492e-a6c6-7b11ce01bdd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\00.Character\00.Player\00.StateMachine\00.State\02.Roll">
+      <UniqueIdentifier>{1b08bf6f-3295-4416-9b7e-806d2ab0b014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\00.Character\00.Player\00.StateMachine\00.State\01.Aim">
+      <UniqueIdentifier>{5e43157f-dae6-4d48-b305-cec9ca8f4daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\06.UI\00.PlayerUI\01.HP">
+      <UniqueIdentifier>{be1cb210-7da1-4259-989e-6b6e7c152948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\06.UI\01.MonsterUI">
+      <UniqueIdentifier>{4a80dc0d-424c-4aab-a905-7f3c370c0af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\06.UI\01.MonsterUI\00.HP">
+      <UniqueIdentifier>{62887b32-41a5-4c73-a8d9-d595a79d7b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\06.UI\01.MonsterUI\00.HP\99.Data">
+      <UniqueIdentifier>{b95f54a3-2de9-49ac-ad91-369a0a5bca37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\06.UI\00.PlayerUI\01.HP\99.Data">
+      <UniqueIdentifier>{848dc9d5-a5d4-4398-ad44-036e6d7514d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\06.UI\01.MonsterUI\99.Data">
+      <UniqueIdentifier>{da57a7eb-6f87-49bb-8639-5eed570c0468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\00.Character\01.Monster\01.Boss">
+      <UniqueIdentifier>{3ae3a0df-46d5-4645-b2c7-ad2c294182b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Tool\01.Logger">
+      <UniqueIdentifier>{fa82a18f-24cc-4f33-9e34-e0d625ed00f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Tool\01.Logger\98.Interface">
+      <UniqueIdentifier>{7fe16140-3872-4382-b1b7-cb062e961961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\06.UI\02.LoadingUI">
+      <UniqueIdentifier>{cc2ba63c-9ddc-4637-98eb-1c9114960265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\06.UI\00.PlayerUI\02.WeaponBox">
+      <UniqueIdentifier>{24373a38-9b02-4029-89f1-d782a4c70b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Actor\06.UI\00.PlayerUI\02.WeaponBox\99.Data">
+      <UniqueIdentifier>{3bbfe806-c034-4562-8107-a71095973a35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\CMainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default\99.Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default\99.Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>98.Default\00.Window</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>98.Default\00.Window</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>98.Default\00.Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Define.h">
+      <Filter>99.Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLevel_Logo.h">
+      <Filter>01.Level\01.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLevel_Stage1.h">
+      <Filter>01.Level\02.GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLevel_Loading.h">
+      <Filter>01.Level\98.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLoader.h">
+      <Filter>01.Level\98.Loading\00.Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ELevel.h">
+      <Filter>01.Level\99.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EPlayerState.h">
+      <Filter>02.Actor\00.Character\00.Player\99.Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ETerrainTexture.h">
+      <Filter>02.Actor\03.Terrain\99.Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Reference\ImGui\imgui_internal.h">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui\00.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Reference\ImGui\imgui_impl_win32.h">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui\00.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Reference\ImGui\imgui_impl_dx11.h">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui\00.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Reference\ImGui\imgui.h">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui\00.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Reference\ImGui\imconfig.h">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui\00.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Reference\ImGui\imstb_rectpack.h">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui\00.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Reference\ImGui\imstb_textedit.h">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui\00.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Reference\ImGui\imstb_truetype.h">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui\00.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Macro.h">
+      <Filter>99.Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\IImGuiManager.h">
+      <Filter>97.Tool\00.ImGuiManager\98.Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CTerrain_Test.h">
+      <Filter>02.Actor\03.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCamera_Free.h">
+      <Filter>02.Actor\04.Camera\00.Camera_Free</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMonster_Brute.h">
+      <Filter>02.Actor\00.Character\01.Monster\00.Monster_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CBuilding_A.h">
+      <Filter>02.Actor\02.StaticActor\00.Building_A</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CTool.h">
+      <Filter>97.Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CImGuiManager.h">
+      <Filter>97.Tool\00.ImGuiManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CSky_Default.h">
+      <Filter>02.Actor\05.SkyBox\00.Sky_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CSky_Stage1.h">
+      <Filter>02.Actor\05.SkyBox\01.Sky_Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EImGuiManager.h">
+      <Filter>97.Tool\00.ImGuiManager\99.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLevel_Terrain.h">
+      <Filter>01.Level\03.Editor\00.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Reference\ImGuiDialog\ImGuiFileDialog.h">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\01.ImGuiDialog\00.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Reference\ImGuiDialog\ImGuiFileDialogConfig.h">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\01.ImGuiDialog\00.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Reference\ImGuiDialog\dirent\dirent.h">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\01.ImGuiDialog\00.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Reference\ImGuiDialog\stb\stb_image.h">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\01.ImGuiDialog\00.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Reference\ImGuiDialog\stb\stb_image_resize2.h">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\01.ImGuiDialog\00.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLight_Directional.h">
+      <Filter>02.Actor\07.Light\00.Directional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CAnimStateMachine_Player.h">
+      <Filter>02.Actor\00.Character\00.Player\00.StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CPlayer.h">
+      <Filter>02.Actor\00.Character\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CPlayerUI.h">
+      <Filter>02.Actor\06.UI\00.PlayerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EPlayerUI.h">
+      <Filter>02.Actor\06.UI\00.PlayerUI\99.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CAssaultRifle.h">
+      <Filter>02.Actor\01.DynamicActor\00.Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCrossHair.h">
+      <Filter>02.Actor\06.UI\00.PlayerUI\00.CrossHair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ECrossHair.h">
+      <Filter>02.Actor\06.UI\00.PlayerUI\00.CrossHair\99.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CPlayerState_Locomotion.h">
+      <Filter>02.Actor\00.Character\00.Player\00.StateMachine\00.State\00.Locomotion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CPlayerState_Roll.h">
+      <Filter>02.Actor\00.Character\00.Player\00.StateMachine\00.State\02.Roll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CPlayerState_Aim.h">
+      <Filter>02.Actor\00.Character\00.Player\00.StateMachine\00.State\01.Aim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CPlayerHP.h">
+      <Filter>02.Actor\06.UI\00.PlayerUI\01.HP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EPlayerHP.h">
+      <Filter>02.Actor\06.UI\00.PlayerUI\01.HP\99.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMonsterUI.h">
+      <Filter>02.Actor\06.UI\01.MonsterUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMonsterHP.h">
+      <Filter>02.Actor\06.UI\01.MonsterUI\00.HP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EMonsterHP.h">
+      <Filter>02.Actor\06.UI\01.MonsterUI\00.HP\99.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EMonsterUI.h">
+      <Filter>02.Actor\06.UI\01.MonsterUI\99.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMonster_ManyFaces.h">
+      <Filter>02.Actor\00.Character\01.Monster\01.Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLogger.h">
+      <Filter>97.Tool\01.Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ILogger.h">
+      <Filter>97.Tool\01.Logger\98.Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLoadingUI.h">
+      <Filter>02.Actor\06.UI\02.LoadingUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CWeaponBox.h">
+      <Filter>02.Actor\06.UI\00.PlayerUI\02.WeaponBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EWeaponBox.h">
+      <Filter>02.Actor\06.UI\00.PlayerUI\02.WeaponBox\99.Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\CMainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>98.Default\00.Window</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>98.Default\00.Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLevel_Logo.cpp">
+      <Filter>01.Level\01.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLevel_Stage1.cpp">
+      <Filter>01.Level\02.GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLoader.cpp">
+      <Filter>01.Level\98.Loading\00.Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLevel_Loading.cpp">
+      <Filter>01.Level\98.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Reference\ImGui\imgui_widgets.cpp">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui\01.Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Reference\ImGui\imgui_impl_win32.cpp">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui\01.Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Reference\ImGui\imgui_impl_dx11.cpp">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui\01.Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Reference\ImGui\imgui_draw.cpp">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui\01.Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Reference\ImGui\imgui_demo.cpp">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui\01.Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Reference\ImGui\imgui.cpp">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui\01.Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Reference\ImGui\imgui_tables.cpp">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\00.ImGui\01.Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CTerrain_Test.cpp">
+      <Filter>02.Actor\03.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCamera_Free.cpp">
+      <Filter>02.Actor\04.Camera\00.Camera_Free</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMonster_Brute.cpp">
+      <Filter>02.Actor\00.Character\01.Monster\00.Monster_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CBuilding_A.cpp">
+      <Filter>02.Actor\02.StaticActor\00.Building_A</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CPlayer.cpp">
+      <Filter>02.Actor\00.Character\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CTool.cpp">
+      <Filter>97.Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CImGuiManager.cpp">
+      <Filter>97.Tool\00.ImGuiManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CSky_Default.cpp">
+      <Filter>02.Actor\05.SkyBox\00.Sky_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CSky_Stage1.cpp">
+      <Filter>02.Actor\05.SkyBox\01.Sky_Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLevel_Terrain.cpp">
+      <Filter>01.Level\03.Editor\00.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Reference\ImGuiDialog\ImGuiFileDialog.cpp">
+      <Filter>97.Tool\00.ImGuiManager\99.ImGuiData\01.ImGuiDialog\01.Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLight_Directional.cpp">
+      <Filter>02.Actor\07.Light\00.Directional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CAnimStateMachine_Player.cpp">
+      <Filter>02.Actor\00.Character\00.Player\00.StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CPlayerUI.cpp">
+      <Filter>02.Actor\06.UI\00.PlayerUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CAssaultRifle.cpp">
+      <Filter>02.Actor\01.DynamicActor\00.Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCrossHair.cpp">
+      <Filter>02.Actor\06.UI\00.PlayerUI\00.CrossHair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CPlayerState_Locomotion.cpp">
+      <Filter>02.Actor\00.Character\00.Player\00.StateMachine\00.State\00.Locomotion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CPlayerState_Roll.cpp">
+      <Filter>02.Actor\00.Character\00.Player\00.StateMachine\00.State\02.Roll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CPlayerState_Aim.cpp">
+      <Filter>02.Actor\00.Character\00.Player\00.StateMachine\00.State\01.Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CPlayerHP.cpp">
+      <Filter>02.Actor\06.UI\00.PlayerUI\01.HP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMonsterUI.cpp">
+      <Filter>02.Actor\06.UI\01.MonsterUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMonsterHP.cpp">
+      <Filter>02.Actor\06.UI\01.MonsterUI\00.HP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMonster_ManyFaces.cpp">
+      <Filter>02.Actor\00.Character\01.Monster\01.Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLogger.cpp">
+      <Filter>97.Tool\01.Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLoadingUI.cpp">
+      <Filter>02.Actor\06.UI\02.LoadingUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CWeaponBox.cpp">
+      <Filter>02.Actor\06.UI\00.PlayerUI\02.WeaponBox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98.Default\99.Etc</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98.Default\99.Etc</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98.Default\99.Etc</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Reference\Shader\Shader_VtxNorTex.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Reference\Shader\Shader_VtxPosTex.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Reference\Shader\Shader_VtxSkeletalMesh.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Reference\Shader\Shader_VtxStaticMesh.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Reference\Shader\Shader_VtxCube.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Reference\Shader\Shader_VtxPosTexInstancing.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Reference\Shader\Shader_VtxPointInstancing.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.Main">
+      <UniqueIdentifier>{3467e7da-c034-42cc-acc7-e2dbe2d97c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Define">
+      <UniqueIdentifier>{c3722c38-8376-4a1d-887e-62efc3e4e594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Model">
+      <UniqueIdentifier>{104ce9e8-664b-45bf-97a9-baaed386fef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Model\99.Data">
+      <UniqueIdentifier>{41b85d81-d061-4433-87b5-93cc6eb4c621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Define\00.Batch">
+      <UniqueIdentifier>{aeb86c6b-806e-4dc5-bf70-cc5b48eece80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Main\00.Func">
+      <UniqueIdentifier>{077b14eb-cd01-4306-93ef-6fcb8d44f305}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\Main.cpp">
+      <Filter>00.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Model.cpp">
+      <Filter>01.Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FVertex_StaticMesh.cpp">
+      <Filter>01.Model\99.Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FVertex_SkeletalMesh.cpp">
+      <Filter>01.Model\99.Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\Main.h">
+      <Filter>00.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Extractor_Define.h">
+      <Filter>99.Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Extractor_Function.h">
+      <Filter>99.Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Extractor_Typedef.h">
+      <Filter>99.Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Model.h">
+      <Filter>01.Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FVertex_StaticMesh.h">
+      <Filter>01.Model\99.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FVertex_SkeletalMesh.h">
+      <Filter>01.Model\99.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EMesh.h">
+      <Filter>01.Model\99.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FKeyFrame.h">
+      <Filter>01.Model\99.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Extractor_Macro.h">
+      <Filter>99.Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Func.h">
+      <Filter>00.Main\00.Func</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Copy.bat">
+      <Filter>99.Define\00.Batch</Filter>
+    </None>
+  </ItemGroup>
+</Project>

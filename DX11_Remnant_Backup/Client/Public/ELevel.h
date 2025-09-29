@@ -1,0 +1,15 @@
+#pragma once
+
+BEGIN(Client)
+
+enum class ELevel
+{
+	LEVEL_STATIC,
+	LEVEL_LOADING, 
+	LEVEL_LOGO, 
+	LEVEL_STAGE1, 
+	LEVEL_TERRAIN,
+	LEVEL_END,
+};
+
+END

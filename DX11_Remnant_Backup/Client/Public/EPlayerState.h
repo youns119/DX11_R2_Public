@@ -1,0 +1,13 @@
+#pragma once
+
+BEGIN(Client)
+
+enum EPlayerState
+{
+	PLAYERSTATE_LOCOMOTION	= 0x00000001,
+	PLAYERSTATE_AIM			= 0x00000002,
+
+	PLAYERSTATE_ROLL		= 0x00000010,
+};
+
+END

@@ -1,0 +1,15 @@
+#pragma once
+
+BEGIN(Engine)
+
+enum class ERender 
+{ 
+	RENDER_PRIORITY, 
+	RENDER_NONBLEND,
+	RENDER_NONLIGHT,
+	RENDER_BLEND,
+	RENDER_UI,
+	RENDER_END
+};
+
+END

@@ -1,0 +1,13 @@
+#pragma once
+
+BEGIN(Engine)
+
+enum class ETransform 
+{ 
+	TRANSFORM_SCALE, 
+	TRANSFORM_ROTATION,
+	TRANSFORM_POSITION,
+	TRANSFORM_END,
+};
+
+END
